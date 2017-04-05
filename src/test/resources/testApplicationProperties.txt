@@ -73,7 +73,7 @@
                         {"name":"git2consul","hostname":"philippe-dev","pid":5959,"level":30,"msg":"Loaded repo sample_configuration","time":"2017-04-04T15:57:13.064Z","v":0}
         - in the Consul web UI, verify under KEY/VALUE:
                 - 1 entry for git2consul
-                - 1 entry for sample_configuration
+                - 1 entry for sample_configuration/master: samplesvc.yml and samplesvc-prod.yml
         - rebuild the app and run the test section below
 
 
