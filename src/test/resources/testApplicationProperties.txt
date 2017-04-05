@@ -77,10 +77,6 @@
         - rebuild the app and run the test section below
 
 
-- Option 4: TODO Store properties in Vault
-            -
-
-
 ################################################################
 # Test section
 ################################################################

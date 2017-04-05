@@ -35,23 +35,3 @@ mvn clean install
 # To test the service discovery
 ################################################################
 - see testApplicationProperties.txt
-
-
-################################################################
-# TODO Encryption of props
-################################################################
-- Currently, storing props in GitHUb:
-    - consul kv get -recurse
-            git2consul/config:{
-              "version": "1.0",
-              "repos" : [{
-                "name" : "config",
-                "url" : "https://github.com/pilif42/git2consul_data.git",
-                "branches" : ["master"],
-                "hooks": [{
-                  "type" : "polling",
-                  "interval" : "1"
-                }]
-              }]
-            }
-    - pb is that data is not encrypted in https://github.com/pilif42/git2consul_data.git
